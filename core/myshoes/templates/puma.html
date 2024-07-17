@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
+</head>
+
+<body>  
+    <!----barra de navegación-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="item i1">
+          <a class="text navbar-brand" href="index.html">LionKicks</a>
+        </div>
+        <div class="item i2">
+          <img id="logo" src="{% static 'img/logo.png' %}" width="200%"> 
+        </div>
+        <div class="item i3">
+          <a class="text nav-link active" aria-current="page" href="{% url 'nombre_de_la_vista_nosotros' %}">Nosotros</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="grid-container">
+        <div class="grid-item"><a href="pumaSlipstream.html">PUMA SlipStream<img id="f" src="{% static 'img/puma/puma1.png' %}"></a></div>
+        <div class="grid-item"><a href="pumaRebound.html">PUMA Rebound<img id="f" src="{% static 'img/puma/puma2.png' %}"></a></div>
+        <div class="grid-item"><a href="pumaRunnng.html">PUMA Running<img id="f" src="{% static 'img/puma/puma3.png' %}"></a></div>
+        <div class="grid-item"><a href="pumaR22.html">PUMA R22<img id="f" src="{% static 'img/puma/puma4.png' %}"></a></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'js/especificaciones.js' %}"></script>
+</body>
+
+</html>

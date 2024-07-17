@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Air Max 97</title>
+
+  <style>
+    body {
+      background-image: url("{% static 'img/fondonike.jpg' %}");
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'index' %}">LionKicks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'index' %}">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'login' %}">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'register' %}">Registrar</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a class="nav-link" href="{% url 'carrito' %}">
+            <img src="{% static 'img/carrocompra.png' %}" width="40" alt="Carrito">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <div class="row">
+      <!-- Producto 1 -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="{% static 'img/nike/nike2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Nike Air Max 97</h5>
+            <p class="card-text">PRECIO: 195.000<br>Zapatilla para Mujer<br>EN STOCK</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-secondary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Puedes añadir más productos aquí si lo deseas -->
+    </div>
+  </div>
+  
+  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</body>
+
+</html>

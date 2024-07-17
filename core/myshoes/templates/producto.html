@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Producto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container mt-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="#">Masculino</a></li>
+                <li class="breadcrumb-item"><a href="#">Zapatos</a></li>
+                <li class="breadcrumb-item"><a href="#">Zapatillas Urbanas</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Zapatilla FORUM LOW CL Blanco adidas originals</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="productImagesCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{% static 'images/shoe-main.jpg' %}" class="d-block w-100" alt="Zapatilla FORUM LOW CL Blanco adidas originals">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'images/shoe-thumbnail1.jpg' %}" class

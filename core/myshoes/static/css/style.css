@@ -1,0 +1,390 @@
+body{
+    background-image: url(img/lion.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#carouselExampleDark{
+    margin: auto;
+    width : 20%;
+
+    text-align: center;
+}
+#secd{
+    color: white;
+    grid-gap: 50px 0px;
+}
+#secc{
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px 0px;
+    align-items: center;
+    justify-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center ;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#nikeb{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px 0px;
+    align-items: center;
+    justify-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#adidasb{
+    background-image:url(img/lion.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+
+}
+#pumab{
+    background-image:url(img/lion.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+}
+#f{
+    width: 250px;
+    border-radius: 80px;
+    border: 2px solid dimgrey;
+}
+#titsec{
+    color: white;
+    text-align: center  ;
+    margin-top: 30px;
+}
+#nv{ 
+    background-color: white;
+}
+#qs{/* quienes somos en la barra */
+    text-align: center;
+    color: white;
+}
+#loremlk{/* Texto lorem de apartado lionkicks */
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 55%;
+
+}
+#flk{/* footer lionkicks(contato) */
+    text-align:center;
+    color: white;
+}
+#nkv{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 50px 0px;
+    align-items: center;
+    justify-items: center; 
+}
+#lcont{
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+#contn{
+    text-align: center  ;
+    margin-top:40px;
+}
+#finpage{
+    color: white;
+}
+#descrZ{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+#contn2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#logo{
+    width: 100%;
+    justify-content: center;
+
+}
+a:hover{
+    opacity: 0.8;
+}
+#ProxE{
+    color: white;
+}
+#ProxEIT{
+    color: white;
+    text-decoration: underline;
+}
+@media(max-width:1060px){
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+
+    }
+    #nikeb{
+        grid-template-columns: repeat(2, 1fr); 
+        width:500px;
+    }
+    .container{
+        width:500px;
+    }
+}
+.grid-item{
+    color:white;
+    text-align: center;
+}
+.card{
+    align-items: center;
+    justify-items: center;
+    background-attachment: fixed;
+}
+.container-fluid{
+    justify-content:space-between;
+}
+.item{
+    width:80px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+.i3{
+width: auto;
+}
+.carouselExampleDark{
+    display: flex;   
+    align-items: center;
+}
+.carousel-item img{
+    height: 60vh;
+    object-fit: cover;
+}
+.carousel{
+        max-width: 1200px;
+        margin: 0 auto;
+}
+.grid-item img {
+    height: 280px; /* Cambia 200px por el valor que desees */
+    width: auto; /* Para mantener la proporción original de la imagen */
+}
+
+.container-fluid{
+    margin-top: 20px;
+}
+#navbar{
+    justify-content: center;
+}
+#sign{
+    align-items: center;
+    text-align: center;
+}
+#btnn{
+    text-align: center;
+}
+#gen{
+    text-align: center;
+}
+#btninic{
+    justify-content: left;
+    text-align: left;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Color dorado al pasar el ratón */
+}
+
+
+/* Estilos para el navbar */
+#navbar {
+    background-color: #343a40; /* Fondo oscuro */
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #ffffff; /* Color de texto blanco */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .btn {
+    background-color: #007bff; /* Fondo azul para los botones */
+    color: #ffffff; /* Texto blanco */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar .btn:hover {
+    background-color: #0056b3; /* Fondo azul oscuro al pasar el ratón */
+}
+
+.navbar h1 {
+    color: #ffffff; /* Texto blanco */
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Alinear el título en el centro */
+.navbar .text-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alinear el contenedor de inicio a la izquierda */
+.navbar .justify-content-start {
+    flex-grow: 1;
+}
+
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff; /* Color de texto blanco */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff; /* Color de texto blanco */
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Color dorado al pasar el ratón */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Cambia el color del icono del toggler a blanco */
+}
+
+.d-flex.align-items-center img {
+    width: 30px; /* Tamaño adecuado para la imagen del carrito */
+}
+
+/* Estilos para el carousel */
+.carousel-inner img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+/* Título de secciones */
+#titsec {
+    font-size: 2rem;
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Estilos para las tarjetas de secciones */
+.card {
+    border: none;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-body {
+    background-color: #f8f9fa; /* Fondo claro */
+}
+
+
+body {
+    background-image: url('{% static "img/fondonike.jpg" %}');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los logos */
+    margin: 0 15px;
+}
+
+.social-icons a {
+    color: white;
+}
+
+.social-icons a:hover {
+    opacity: 0.3;
+}
+
+.contact-info {
+    color: rgb(247, 5, 5);
+    text-align: right;
+}
+
+.contact-info h5 {
+    margin-bottom: 10px;
+    color: #fd0303; /* Asegúrate de que el color sea blanco */
+}
+
+.contact-info p {
+    color: #f80303; /* Asegúrate de que el texto sea blanco */
+}
